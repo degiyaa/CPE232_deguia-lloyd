@@ -1,0 +1,16 @@
+---
+- name: Install Apache and PHP on Red Hat-based systems
+  hosts: all
+  become: yes
+  vars:
+    apache_package: httpd
+    php_package: php
+
+  tasks:
+    - name: Install Apache and PHP packages
+      package:
+        name:
+          - "{{ apache_package }}"
+          - "{{ php_package }}"
+        state: latest
+        update_cache: yes
