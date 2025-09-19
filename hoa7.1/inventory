@@ -1,0 +1,10 @@
+[web_servers]
+192.168.56.102
+192.168.56.104 ansible_user=degiyaa
+
+[db_servers]
+192.168.56.102
+192.168.56.104 ansible_user=degiyaa
+
+[file_servers]
+192.168.56.102
