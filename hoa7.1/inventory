@@ -1,3 +1,6 @@
+[workstations]
+192.168.56.101
+
 [web_servers]
 192.168.56.102
 192.168.56.104 ansible_user=degiyaa
